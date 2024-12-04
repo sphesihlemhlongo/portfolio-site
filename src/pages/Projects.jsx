@@ -4,9 +4,12 @@ import Layout from '../components/Layout';
 const Projects = () => {
   return (
     <Layout>
-      <div className="text-center p-10">
-        <h1 className="text-4xl font-bold">Projects</h1>
-        <p className="mt-4">Welcome to my portfolio website!</p>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="bg-gray-100 p-4 rounded shadow-lg">
+          <h3 className="font-bold text-xl">Project 1</h3>
+          <p>A brief description of the project.</p>
+        </div>
+      {/* Repeat for more projects */}
       </div>
     </Layout>
   );
