@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
         {children}
       </main>
       <footer className="bg-gray-800 text-white text-center p-4">
-        © 2024 My Portfolio
+        ©2024 Sphesihle Mhlongo
       </footer>
     </div>
   );
