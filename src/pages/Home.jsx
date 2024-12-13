@@ -1,6 +1,8 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import LanguagesAndTools from '../components/LanguagesAndTools';
+import GamingStudent from "../components/GamingStudent";
+
 
 
 const Home = () => {
@@ -13,12 +15,9 @@ const Home = () => {
     Learn More
     </button>
     </div>
- 
-    <div >
-   
         <LanguagesAndTools />
-        </div>
-
+{/*     
+        <GamingStudent /> */}
     </Layout>
   );
 };
