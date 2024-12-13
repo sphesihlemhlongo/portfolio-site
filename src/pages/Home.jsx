@@ -1,5 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout';
+import LanguagesAndTools from '../components/LanguagesAndTools';
+
 
 const Home = () => {
   return (
@@ -9,8 +11,13 @@ const Home = () => {
       <p className="mt-4 text-lg">Explore my work and get to know me better.</p>
       <button className="mt-6 px-6 py-3 bg-gray-800 text-white font-bold rounded hover:bg-gray-700">
     Learn More
-  </button>
-</div>
+    </button>
+    </div>
+ 
+    <div >
+   
+        <LanguagesAndTools />
+        </div>
 
     </Layout>
   );

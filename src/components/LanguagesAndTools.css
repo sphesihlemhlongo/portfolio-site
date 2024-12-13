@@ -1,0 +1,48 @@
+/* Container styles */
+.languages-tools-container {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+  }
+  
+  /* Animated title styles */
+  .animated-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  /* Keyframes for title animation */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Icons container */
+  .icons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Spacing between icons */
+  }
+  
+  /* Icon styles */
+  .icon {
+    width: 40px;
+    height: 40px;
+    margin: 10px; /* Add space around individual icons */
+    transition: transform 0.3s;
+  }
+  
+  .icon:hover {
+    transform: scale(1.2); /* Scale up icon on hover */
+  }
+  
