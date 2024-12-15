@@ -5,7 +5,7 @@ const projectsData = [
       title: "Dreamers Club Website",
       description: "A business Website created with Jekyll (Static site generator)",
       projectLink: "https://dreamersclub.netlify.app/",
-      codeLink: "https://github.com/user/dreamers-club", // Replace with actual GitHub link
+      codeLink: "https://github.com/sphesihlemhlongo/dreamersclub-site", // Replace with actual GitHub link
       buttonStyles: {
         projectButton: {
           backgroundColor: "#1a202c", // Custom color
