@@ -7,7 +7,7 @@ import projectsData from "../data/projectsData";
 const Projects = () => {
   return (
     <Layout>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1">
         {projectsData.map((project, index) => (
           <div key={index} className="bg-gray-100 p-8 rounded shadow-lg">
             <h3 className="font-bold text-xl">{project.title}</h3>
