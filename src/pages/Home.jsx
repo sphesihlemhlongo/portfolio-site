@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import LanguagesAndTools from '../components/LanguagesAndTools';
-import GamingStudent from "../components/GamingStudent";
+// import GamingStudent from "../components/GamingStudent";
 
 
 
