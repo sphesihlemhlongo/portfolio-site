@@ -2,6 +2,9 @@ import React from 'react';
 import Layout from '../components/Layout';
 import { FaGithub } from "react-icons/fa";
 import projectsData from "../data/projectsData";
+// import '../components/Styles/ProjectsStyles.css';
+
+
 
 
 const Projects = () => {
@@ -23,10 +26,10 @@ const Projects = () => {
             <div className="flex items-center gap-4 mt-6">
               {/* View Project Button */}
               <button
-                className="text-white font-bold rounded px-6 py-3 transition-colors duration-300"
-                style={project.buttonStyles.projectButton}
-                onMouseEnter={(e) => (e.target.style.backgroundColor = "#5c5c5c")}
-                onMouseLeave={(e) => (e.target.style.backgroundColor = "#4A4A4AFF")}
+                className=" font-bold rounded px-60 py-30 duration-300"
+                style={project.buttonStyles.projectButton }
+                onMouseEnter={(e) => (e.target.style.backgroundColor = "#0C0707FF")}
+                onMouseLeave={(e) => (e.target.style.backgroundColor = "#3182ce")}
               >
                 <a
                   href={project.projectLink}
@@ -38,7 +41,7 @@ const Projects = () => {
               </button>
               {/* Code Button */}
               <button
-                className="text-white font-bold rounded px-6 py-3 flex items-center transition-colors duration-300"
+                className="font-bold rounded px-6 py-3 flex items-center transition-colors duration-300"
                 onMouseEnter={(e) => (e.target.style.backgroundColor = "#000000FF")}
                 onMouseLeave={(e) => (e.target.style.backgroundColor = "#333333")}
               >
