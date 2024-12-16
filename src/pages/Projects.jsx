@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import { FaGithub } from "react-icons/fa";
 import projectsData from "../data/projectsData";
-// import '../components/Styles/ProjectsStyles.css';
+import '../components/Styles/ProjectsStyles.css';
 
 
 
@@ -42,6 +42,7 @@ const Projects = () => {
               {/* Code Button */}
               <button
                 className="font-bold rounded px-6 py-3 flex items-center transition-colors duration-300"
+                
                 onMouseEnter={(e) => (e.target.style.backgroundColor = "#000000FF")}
                 onMouseLeave={(e) => (e.target.style.backgroundColor = "#333333")}
               >

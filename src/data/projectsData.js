@@ -1,7 +1,7 @@
 const projectsData = [
     {
       title: "Dreamers Club Website",
-      description: "A business Website created with Jekyll (Static site generator)",
+      description: "A business Website created with Jekyll",
       projectLink: "https://dreamersclub.netlify.app/",
       codeLink: "https://github.com/sphesihlemhlongo/dreamersclub-site",
       buttonStyles: {
