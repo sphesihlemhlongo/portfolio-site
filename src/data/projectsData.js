@@ -12,7 +12,7 @@ const projectsData = [
   
     {
       title: "Portfolio Website",
-      description: "A personal portfolio website built with React.js.",
+      description: "A portfolio website built with React.js.",
       projectLink: "https://sphesihlemhlongo.netlify.app/",
       codeLink: "https://github.com/user/portfolio",
       buttonStyles: {
