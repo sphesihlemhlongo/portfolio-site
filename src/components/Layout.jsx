@@ -20,9 +20,9 @@ const Layout = ({ children }) => {
       <main className="flex-grow container mx-auto p-6">
         {children}
       </main>
-      <footer className="bg-gray-800 text-white text-center p-4">
+      <footer className="bg-gray-800 text-white text-center p-0">
         {/* Social Media Links */}
-        <div className="absolute bottom-4 left-4 flex space-x-4">
+        <div className=" bottom-1 left-4 flex space-x-4 ">
           <a
             href="https://github.com/sphesihlemhlongo"
             target="_blank"
