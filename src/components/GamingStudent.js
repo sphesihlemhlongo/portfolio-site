@@ -11,7 +11,7 @@ const GamingStudent = () => {
 
       <div className="gaming-pc">
         <div className="pc-screen">
-          <div className="coding-text">console.log('Hello World');</div> {/* Simulating coding */}
+          <div className="coding-text">Welcome </div> {/* Simulating coding */}
         </div>
       </div>
 

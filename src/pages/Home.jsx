@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import LanguagesAndTools from '../components/LanguagesAndTools';
-// import GamingStudent from "../components/GamingStudent";
+import GamingStudent from "../components/GamingStudent";
 import { Link } from "react-router-dom"; 
 
 
@@ -29,8 +29,8 @@ const Home = () => {
       </Link>
     </div>
         <LanguagesAndTools />
-{/*     
-        <GamingStudent /> */}
+    
+        <GamingStudent />
     </Layout>
   );
 };
