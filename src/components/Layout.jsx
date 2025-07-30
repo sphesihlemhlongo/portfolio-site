@@ -55,32 +55,34 @@ const Layout = ({ children }) => {
       <main className="flex-grow container mx-auto p-6">
         {children}
       </main>
-      <footer className="bg-gray-800 text-white text-center p-0">
-        {/* Social Media Links */}
-        <div className=" bottom-1 left-4 flex space-x-4 ">
-          <a
-            href="https://github.com/sphesihlemhlongo"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-400 hover:text-gray-200 transition-colors"
-          >
-            <FaGithub size={24} />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/sphesihle-mhlongo-937858267/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-400 hover:text-gray-200 transition-colors"
-          >
-            <FaLinkedin size={24} />
-          </a>
-        </div>
-
-        {/* Copyright Section */}
-        <div className="text-center">
-          <p>
-            &copy; {currentYear} Sphesihle Mhlongo
-          </p>
+      <footer className="bg-gray-800 text-white p-0">
+        {/* Social Media Links and Copyright */}
+        <div className="container mx-auto flex flex-col md:flex-row items-center md:items-center justify-between py-2 relative">
+          {/* Socials on far left */}
+          <div className="flex space-x-4 w-full md:w-auto justify-center md:justify-start mb-2 md:mb-0 md:absolute md:left-0">
+            <a
+              href="https://github.com/sphesihlemhlongo"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-gray-200 transition-colors"
+            >
+              <FaGithub size={24} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/sphesihle-mhlongo-937858267/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-gray-200 transition-colors"
+            >
+              <FaLinkedin size={24} />
+            </a>
+          </div>
+          {/* Copyright centered */}
+          <div className="w-full flex justify-center">
+            <p className="text-center">
+              &copy; {currentYear} Sphesihle Mhlongo
+            </p>
+          </div>
         </div>
       </footer>
     </div>
