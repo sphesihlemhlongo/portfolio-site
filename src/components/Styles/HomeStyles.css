@@ -1,16 +1,17 @@
 .profile-image-container {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   
   .profile-image {
-    width: 150px; /* Adjust size as needed */
-    height: 150px;
-    border-radius: 50%; /* Makes the image circular */
-    border: 3px solid #ddd; /* Optional: Add a border */
-    object-fit: cover; /* Ensures proper image scaling */
-  }
+  width: 90px;        /* small circular size */
+  height: 90px;
+  border-radius: 50%;  /* perfect circle */
+  border: 6px solid #ffffff; /* optional white border for contrast */
+  object-fit: cover;   /* keeps the face nicely framed */
+}
+
   
   .btn-primary {
     margin-top: 20px;
